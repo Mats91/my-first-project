@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<meta name="description" content="FAKEBUK">
+<meta name="keywords" content="fakebuk, me">
+<meta name="author" content="Matjaž Grčar">
+<title>Matjaž Grčar | Fakebuk</title>
+<!-- Bootstrap CSS -->
+       <link href="css/bootstrap.css" rel="stylesheet">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script src="js/bootstrap.js"></script>
+<style>
+body {
+    background-color: #FFF8DC;
+}
+
+h1 {
+    color: brown;
+}
+
+#search {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#search:hover {
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.category {
+    font-family: Arial;
+    margin-left: 12px;
+}
+
+.category strong {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+img {
+  border: 6px brown dotted;
+  padding: 5px;
+  transform: rotateX(360deg);
+}
+
+img:hover {
+  border: 6px blue solid;
+}
+h2 {
+    color: green;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+  <span class="navbar-text">
+    <h1><i>FAKEBOOK</i></h1>
+  </span>
+</nav>
+<div class="container">
+  <!-- Content here -->
+    Search: <input type="text" placeholder="search by name">
+    <br>
+    <h2>Matjaž <br /> Grčar</h2>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="DSC08236.JPG" alt="let's programming">
+      <button>Add a friend</button>
+      <br>
+      <div class="card-body">
+        <h5 class="card-title">O meni</h5>
+        <p class="card-text">... en mal</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><p><strong>City:</strong> Zagorje</p></li>
+        <li class="list-group-item"><p><strong>Age:</strong> 30+</p></li>
+        <li class="list-group-item"><p><strong>Education:</strong> Bachelor of <b style="color: red;>">Theology</b> and Economics</p></li>
+        <li class="list-group-item"><p><strong>Hobby:</strong> music!!</p></li>
+        <li class="list-group-item"><p><strong>FB friends:</strong> 12</p></li>
+        <li class="list-group-item"><p><strong>FB enemies:</strong> 0</p></li>
+        <hr align="left", width="250px"/>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Glasba</a>
+        <a href="#" class="card-link">Biznis</a>
+      </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                First, but unordered
+              </div>
+              <div class="col order-12">
+                Second, but last
+              </div>
+              <div class="col order-1">
+                Third, but first
+              </div>
+            </div>
+          </div>
+          <br />
+      </body>
+</html>
